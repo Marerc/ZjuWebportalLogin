@@ -1,2 +1,2 @@
 # ZjuWebportalLogin
- 浙大网络网页认证脚本
+ 浙江大学网络网页认证脚本
