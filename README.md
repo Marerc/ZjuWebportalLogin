@@ -19,7 +19,7 @@ python3 demo.py
 
 crontab -e 中添加定时语句，定时检验网络是否掉线，网络掉线后重新登录，**地址**需要修改一下的。
 
-> */5 * * * * **path/to/your/location**/ZjuWebportalLogin/onlineMornitoring.sh 
+> */5 * * * * path/to/your/location/ZjuWebportalLogin/onlineMornitoring.sh 
 
 上面语句的意思是，每5分钟执行这个脚本，这个脚本的作用是：
 1. 检测网络是否在线，如果在线不执行任何操作，如果不在线，执行登录脚本。
