@@ -13,7 +13,7 @@ ZS校区认证地址是这个，其他校区的需要修改一下，这个文件
 
 # 普通用法
 
-python3 demo.py 
+python3 login.py -doi 10.92.110.107 -u 222222 -p 333333
 
 # 高级用法(仅限linux支持crontab的发行版)
 
